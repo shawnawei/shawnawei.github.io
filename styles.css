@@ -1,0 +1,60 @@
+/* 1. Reset and Typography */
+body {
+    /* Set a nice, readable system font */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff; /* Pure white background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+}
+
+/* 2. Center the Entire Page Content */
+.content-hub {
+    /* Use Flexbox for easy centering */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Make it fill the viewport height */
+    min-height: 100vh; 
+    text-align: center;
+    padding: 20px;
+}
+
+/* 3. Heading Styles */
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.1em;
+    color: #111; /* Strong black for the name */
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #666; /* Lighter color for supporting text */
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* 4. Navigation Links */
+.links {
+    /* Use a dividing line for a clean look */
+    border-top: 2px solid #eee; 
+    padding-top: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.link-item {
+    /* Remove default underline, but keep it clear it's a link */
+    text-decoration: none; 
+    color: #007bff; /* A classic, professional blue */
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block; /* Makes each link take up its own line */
+    padding: 10px 0;
+    transition: color 0.2s;
+}
+
+.link-item:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
